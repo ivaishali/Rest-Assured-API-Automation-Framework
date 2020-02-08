@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Smoke Cucumber suite">
+    <test name="Smoke Cucumber Runner" enabled="true">
+        <classes>
+            <class name="com.automation.Runner.SmokeRunner"></class>
+        </classes>
+    </test>
+</suite>

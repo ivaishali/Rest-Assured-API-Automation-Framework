@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Rest Assure Automation configuration" verbose="10">
+    <listeners>
+        <listener class-name="com.automation.listeners.ExtentReporterNG"></listener>
+    </listeners>
+    <test name="all">
+        <packages>
+            <package name="com.automation.restApiTest"></package>
+        </packages>
+    </test>
+</suite>
